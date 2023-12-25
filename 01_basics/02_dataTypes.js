@@ -3,10 +3,7 @@
 
 // alert( 3 + 3) // we are using nodejs, not browser
 
-console.log(3 
-    +
-    3); // this is not good practise please write a single code 
-        // becasue of code readability should be high
+console.log(3 +  3); // this is not good practise please write a single code  // becasue of code readability should be high
 
 console.log("Nirmal Goyani");
 

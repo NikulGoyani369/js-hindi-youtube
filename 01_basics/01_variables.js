@@ -1,16 +1,21 @@
-const accountId = 144553
-let accountEmail = "nirmal@google.com"
-var accountPassword = "Test1234"
-accountCity = "Jaipur"
+
+/**
+ * below code is variable declared Info.....
+ */
+
+const accountId = 144553            // constant means asign value never change 
+let accountEmail = "nirmal@google.com" // let means will change value or 
+var accountPassword = "Test1234"       // 
+accountCity = "Jaipur"                //
 let accountState;
 
 // accountId = 2
+console.log(accountId);
+
 
 accountEmail = "ng@gmail.com"
 accountPassword = "123Test"
 accountCity = "Surat"
-
-console.log(accountId);
 
 
 /* 
