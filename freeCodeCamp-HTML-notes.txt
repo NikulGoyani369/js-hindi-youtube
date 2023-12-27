@@ -52,3 +52,55 @@ Add another checkbox after the one you just added. The id attribute value should
 
 Also add a label element to the right of the new checkbox with the text Lazy. Make sure to associate the label element with the new checkbox using the for attribute.
 
+    <input id="lazy" type="checkbox" name="personality"> <label for="lazy">Lazy</label>
+
+Step 59
+Add a final checkbox after the previous one with an id attribute value of energetic. The name attribute should be the same as the previous checkbox.
+
+Also add a label element to the right of the new checkbox with text Energetic. Make sure to associate the label element with the new checkbox.
+    <input id="loving" type="checkbox" name="personality"> 
+       <label for="loving">Loving<label>
+    <input id="lazy" type="checkbox" name="personality"> 
+        <label for="lazy">Lazy</label>
+    <input id="energetic" type="checkbox" name="personality"> 
+        <label for="energetic">Energetic</label>
+
+Step 60
+Like radio buttons, form data for selected checkboxes are name / value attribute pairs. While the value attribute is optional, it's best practice to include it with any checkboxes or radio buttons on the page.
+
+Add a value attribute to each checkbox. For convenience, set each checkbox's value attribute to the same value as its id attribute.
+
+<fieldset>
+    <legend>What's your cat's personality?</legend>
+        <input id="loving" type="checkbox" name="personality" value="loving"> 
+            <label for="loving">Loving</label>
+        <input id="lazy" type="checkbox" name="personality" value="lazy"> 
+            <label for="lazy">Lazy</label>
+        <input id="energetic" type="checkbox" name="personality"value="energetic">     
+             <label for="energetic"> Energetic</label>
+</fieldset>
+
+Step 61
+In order to make a checkbox checked or radio button selected by default, you need to add the checked attribute to it. There's no need to set a value to the checked attribute. Instead, just add the word checked to the input element, making sure there is space between it and other attributes.
+
+Make the first radio button and the first checkbox selected by default.
+
+    <fieldset>
+        <legend>Is your cat an indoor or outdoor cat?</legend>
+        <label>
+            <input id="indoor" type="radio" name="indoor-outdoor" value="indoor"checked> Indoor
+        </label>
+        <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor
+        </label>
+    </fieldset>
+
+        <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality"value="loving"checked>  
+            <label for="loving">Loving</label>
+            
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> 
+            <label for="lazy">Lazy</label>
+            
+            <input id="energetic" type="checkbox" name="personality"value="energetic"> <label for="energetic"> Energetic</label>
+        </fieldset>
