@@ -1,0 +1,54 @@
+Step 50
+The fieldset element is used to group related inputs and labels together in a web form. fieldset elements are block-level elements, meaning that they appear on a new line.
+
+Nest the Indoor and Outdoor radio buttons within a fieldset element, and don't forget to indent the radio buttons.
+
+Step 51
+The legend element acts as a caption for the content in the fieldset element. It gives users context about what they should enter into that part of the form.
+
+Add a legend element with the text Is your cat an indoor or outdoor cat? above both of the radio buttons. 
+
+<legend>: The Field Set Legend element
+The<legend> HTML element represents a caption for the content of its parent <fieldset>.
+
+
+Step 52
+Next, you are going to add some new form input elements, so add another fieldset element directly below the current fieldset element.
+
+Step 53
+Add a legend element with the text What's your cat's personality? inside the second fieldset element.
+
+Step 54
+Forms commonly use checkboxes for questions that may have more than one answer. For example, here's a checkbox with the option of tacos: <input type="checkbox"> tacos.
+
+Under the legend element you just added, add an input with its type attribute set to checkbox and give it the option of: Loving
+        <legend>What's your cat's personality?</legend>
+         <input type="checkbox"> Loving
+
+Step 55
+Add an id attribute with the value loving to the checkbox input.
+ <input id="loving" type="checkbox"> Loving
+
+ Step 56
+There's another way to associate an input element's text with the element itself. You can nest the text within a label element and add a for attribute with the same value as the input element's id attribute.
+
+Associate the text Loving with the checkbox by nesting only the text Loving in a label element and giving it an appropriate for attribute.
+
+        <input id="loving" type="checkbox">
+            <label for="loving"> 
+             Loving
+           </label>
+
+Step 57
+Add the name attribute with the value personality to the checkbox input element.
+
+While you won't notice this in the browser, doing this makes it easier for a server to process your web form, especially when there are multiple checkboxes.
+
+        <input id="loving" type="checkbox" name="personality"> 
+        <label for="loving">Loving</label>
+
+Step 58
+Add another checkbox after the one you just added. The id attribute value should be lazy and the name attribute value should be the same as the last checkbox.
+
+Also add a label element to the right of the new checkbox with the text Lazy. Make sure to associate the label element with the new checkbox using the for attribute.
+
