@@ -153,6 +153,16 @@ below is final result:
         <title>Cafe Menu</title>
     </head>
 
+
+Step 15
+Now that you have the CSS in the styles.css file, go ahead and remove the style element and all its content. Once it is removed, the text that was centered will shift back to the left.
+
+add below Code in styles.css file 
+body {
+   background-color: brown;
+}
+
+
 Step 16
 Now you need to link the styles.css file so the styles will be applied again. Nest a self-closing link element in the head element. Give it a rel attribute value stylesheet and an href attribute value of styles.css.
 
@@ -179,5 +189,21 @@ Add the following within the head element:
 Step 18
 The text is centered again so the link to the CSS file is working. Add another style to the file that changes the background-color property to brown for the body element.
 
+body {
+  background-color: brown;
+}
 
+
+Step 19
+That brown background makes it hard to read the text. Change the body element's background color to be burlywood so it has some color but you are still be able to read the text.
+
+body {
+  background-color: brown;
+}
+
+to 
+final output
+body {
+  background-color: burlywood;
+}
 
