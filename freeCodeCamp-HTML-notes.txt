@@ -166,3 +166,26 @@ Tell the browser to parse the markup into multiple languages by creating a meta 
         <meta charset="UTF-8">
         <title>CatPhotoApp</title>
     </head>
+
+Step 15
+Now that you have the CSS in the styles.css file, go ahead and remove the style element and all its content. Once it is removed, the text that was centered will shift back to the left.
+
+add below Code in styles.css file 
+body {
+   background-color: brown;
+}
+
+
+Step 19
+That brown background makes it hard to read the text. Change the body element's background color to be burlywood so it has some color but you are still be able to read the text.
+
+body {
+  background-color: brown;
+}
+
+to 
+final output
+body {
+  background-color: burlywood;
+}
+
