@@ -1,0 +1,59 @@
+Here's a consolidated document with explanations for non-primitive data types in JavaScript:
+
+**Non-Primitive Data Types in JavaScript**
+
+JavaScript not only has primitive data types like strings, numbers, booleans, null, undefined, symbols, and bigints but also non-primitive data types. These non-primitive data types are more complex and can hold multiple values or even functions. Let's explore them:
+
+1. **Object:**
+   - Explanation: Objects are collections of key-value pairs and are used to store complex data structures. They can hold various data types and even functions.
+   - Example:
+     ```javascript
+     typeof {}; // returns "object"
+     typeof []; // returns "object"
+     typeof function() {}; // returns "function"
+     ```
+
+2. **Array:**
+   - Explanation: Arrays are special types of objects used to store multiple values in a single variable. They are indexed collections of data.
+   - Example:
+     ```javascript
+     typeof []; // returns "object"
+     ```
+
+3. **Function:**
+   - Explanation: Functions are blocks of reusable code that perform a specific task. They can be assigned to variables, passed as arguments, and returned from other functions.
+   - Example:
+     ```javascript
+     typeof function() {}; // returns "function"
+     ```
+
+4. **Date:**
+   - Explanation: Dates in JavaScript are represented by the `Date` object, which allows for the manipulation and formatting of dates and times.
+   - Example:
+     ```javascript
+     typeof new Date(); // returns "object"
+     ```
+
+5. **RegExp:**
+   - Explanation: Regular expressions are patterns used to match character combinations in strings. In JavaScript, regular expressions are represented by the `RegExp` object.
+   - Example:
+     ```javascript
+     typeof /ab+c/; // returns "object"
+     typeof new RegExp('ab+c'); // returns "object"
+     ```
+
+6. **Map:**
+   - Explanation: Maps are collections of keyed data items, similar to Objects. They allow any data type to be used as a key or value.
+   - Example:
+     ```javascript
+     typeof new Map(); // returns "object"
+     ```
+
+7. **Set:**
+   - Explanation: Sets are collections of unique values, where each value may occur only once. They can be used to remove duplicates from arrays or check for the existence of an element efficiently.
+   - Example:
+     ```javascript
+     typeof new Set(); // returns "object"
+     ```
+
+These examples demonstrate the non-primitive data types in JavaScript and their respective `typeof` values. They offer more flexibility and functionality compared to primitive types.

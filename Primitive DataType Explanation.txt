@@ -1,0 +1,53 @@
+Sure, here's an explanation of primitive data types in JavaScript along with examples of using the `typeof` operator:
+
+1. **String:**
+   - Explanation: Strings are sequences of characters enclosed within single quotes (`''`) or double quotes (`""`).
+   - Example:
+     ```javascript
+     typeof "Hello"; // returns "string"
+     ```
+
+2. **Number:**
+   - Explanation: Numbers represent numeric values. They can be integers or floating-point numbers.
+   - Example:
+     ```javascript
+     typeof 42; // returns "number"
+     ```
+
+3. **Boolean:**
+   - Explanation: Booleans represent logical values. They can be either `true` or `false`.
+   - Example:
+     ```javascript
+     typeof true; // returns "boolean"
+     ```
+
+4. **Null:**
+   - Explanation: Null represents the intentional absence of any object value.
+   - Example:
+     ```javascript
+     typeof null; // returns "object"
+     // Note: This is a quirk in JavaScript; typeof null returns "object", not "null"
+     ```
+
+5. **Undefined:**
+   - Explanation: Undefined represents a variable that has been declared but has not been assigned a value.
+   - Example:
+     ```javascript
+     typeof undefined; // returns "undefined"
+     ```
+
+6. **Symbol:**
+   - Explanation: Symbols are unique and immutable data types introduced in ES6, used as unique identifiers.
+   - Example:
+     ```javascript
+     typeof Symbol("foo"); // returns "symbol"
+     ```
+
+7. **BigInt:**
+   - Explanation: BigInt is a numeric primitive data type representing integers with arbitrary precision.
+   - Example:
+     ```javascript
+     typeof 42n; // returns "bigint"
+     ```
+
+These examples demonstrate the primitive data types in JavaScript and their respective `typeof` values.
